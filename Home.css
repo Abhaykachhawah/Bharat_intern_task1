@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#section-1 {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 12px;
+    text-align: center;
+    background-color: rgb(92, 92, 202);
+
+}
+
+#section-1>.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 12px;
+    text-align: center;
+
+}
+
+.head>h2 {
+    display: inline-block;
+    /* float: left; */
+    padding: 12px 200px;
+    margin: 14px;
+    background-color: rgb(92, 92, 202);
+    font-family: system-ui;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 12px;
+    margin: 6px;
+
+}
+
+.navlinks a {
+    text-decoration: none;
+    font-size: 23px;
+
+    font-family: system-ui;
+    color: black;
+}
+
+a:active {
+    background-color: grey;
+    border-radius: 12px;
+
+}
+
+a:hover {
+    background-color: grey;
+    border-radius: 20px;
+    text-decoration: 2px dotted black;
+
+
+}
+
+ul:hover li {
+    filter: blur(5px);
+    
+}
+
+ul li:hover {
+    filter: blur(0px);
+}
+
+#section-2{
+    position: relative;
+    
+}
+.left {
+    position:absolute;
+    display: grid;
+    justify-content: center;
+      align-items: center;   
+    width: 50%;
+    height: 500px;
+    color: black;
+    background:#ccf381;
+    grid-template-columns: minmax(100px,500px);
+    font-size: 2.5rem;
+    overflow: hidden;
+}
+.left p{
+   font-size: 1.8rem;
+}
+
+.mid{
+    position: relative;
+    background: url(image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height:500px;
+     width:50%;
+     left:50%;
+}
+
+
+#box-2 {
+    box-sizing: border-box;
+    display: flex;
+    border-top: 7px solid #333;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    background:#ccf381;
+}
+#box-2 h1 {
+    display: inline-flex;
+    margin:auto;
+    justify-content: center;
+    align-items:center;
+    color:black;
+    padding: 12px 30px; 
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-right: 7.375rem;
+    width: 100%;
+}
+
+#Skills-lines p{
+  display: inline-flex;  
+  color: black;
+  font-size: 1.5em;
+  padding:10px  70px;
+
+}
+
+#box-2 img {
+    width: 50%;
+    margin:0px;
+    opacity: 1;
+}
+
+#box-3 {
+    display: flex;
+    box-sizing: border-box;
+    border-top: 7px solid #333;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    background:#ccf381;
+
+}
+
+.box-3-lines h1 {
+    display: inline-block;
+    margin: 0px;
+    padding: 28px 155px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: black;
+    padding-right: 7.375rem;
+    width: 100%;
+
+}
+
+.box-3-lines p {
+    display: inline-flex;
+    margin: -9px;
+    padding: 1px 110px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 9.375rem;
+    width: 100%;
+    color: black;
+}
+
+#box-3 img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+
+}
+#footer{
+    display: flex;
+    box-sizing: border-box;
+    border-top: 7px solid #333;
+    height:100vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background:#ccf381;
+    border-radius: 5px solid black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Contact{
+    position: relative;
+    display: block;
+    width: 88vh;
+    height: 50%;
+    top: 50px;
+    bottom: 0px;
+    padding: 30px 58px;
+    margin: 208px;
+    border-radius: 5px solid black;
+}
+
+.Contact h1{
+    display:inline-flex;
+    margin: 0px;
+    padding: 25px 60px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: black;
+    padding-right: 7.375rem;
+    width: 100%;
+}
+.Contact h3{
+list-style: none;
+  padding-top:5px;
+  padding-bottom: 5px;
+   font-size:1.2rem;
+   font-weight: 400;
+   right:50%;
+  color: black;
+}
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 50px;
+    
+}
+.email a{  
+    margin: auto;
+}
+.profiles{
+    display:inline-flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.profiles a{
+    flex-basis: 55%;
+    padding: 25px;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    
+}
+
+
+
